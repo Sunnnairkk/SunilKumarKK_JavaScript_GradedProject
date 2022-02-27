@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do App</title>
+        <link rel="stylesheet" type="text/css" href="main.css" >
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>To-Do List App</h1>
+                <br>
+                <form id="addForm">
+                    <div class="row">
+                        <div class="col" id="col1">
+                            <input type="text" onkeyup="toggleButton(this,'submit')" class="form-control" id="item" placeholder="Enter to-do item and click Add button">
+                        </div>
+                        <div class="col" id="col2">
+                            <input type="submit" class="btn" id="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <form id="listForm">
+            <div id="todolist">
+                <ul class="list-group" id="items"></ul>
+            </div>
+        </form>
+
+        <script src="index.js"></script>
+    </body>
+</html>

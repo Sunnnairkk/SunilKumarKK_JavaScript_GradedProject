@@ -1,0 +1,77 @@
+body {
+    background-color: thistle;
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+}
+
+#col1 {
+    text-align: right;
+}
+
+#col2 {
+    text-align: left;
+}
+
+
+.form-control {
+    width: 600px;
+    height: 30px;
+}
+
+#submit {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#todoentry h1 {
+    font-family: "sanf-serif";
+    background-color: gray;
+    color: beige;
+    text-align: center;
+    font-size: 60px;
+    padding: 2px 0;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+.list-items {
+    position: relative;
+    padding: 5px;
+    margin-top: 5px;
+    width: 720px;
+    text-align: left;
+    border: 1px solid grey;
+    line-height: 35px;
+}
+
+.edit, .delete {
+    float: right;
+    height: 35px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.edit {
+    background-color: darkgreen;
+    color: azure;
+}
+
+.delete {
+    background-color: brown;
+    color: aliceblue;
+}
+
+#todolist {
+    width: 800px;
+    line-height: 100px;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+}
+
